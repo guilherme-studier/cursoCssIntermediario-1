@@ -1,0 +1,30 @@
+#background-1{
+    width: 500px;
+    height: 270px;
+    background-image: url(../image//image-1.jpg), url(../image//image-2.jpg), url(../image//image-3.jpg);
+    background-position: left bottom, right bottom, left top;
+    background-size: 92px, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    display: inline-block;
+}
+
+#background-2{
+    width: 90%;
+    height: 160px;
+    border: 5px solid black;
+    background-image: url(../image//image-1.jpg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-origin: border-box; /*border-box  padding-box  content-box;*/
+}
+
+#background-3{
+    width: 300px;
+    height: 160px;
+    border: 10px dotted black;
+    padding: 35px;
+    background: rgb(107, 167, 163);
+    display: inline-block;
+    background-clip: padding-box; /*border-box  padding-box  content-box;*/
+}

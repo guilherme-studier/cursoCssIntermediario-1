@@ -1,0 +1,43 @@
+#border-image-1{
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../image/border-img.jpg) 50 round; /*Safari*/
+    -o-border-image: url(../image/border-img.jpg) 50 round; /*Opera*/
+    border-image: url(../image/border-img.jpg) 50 round; 
+    display: inline-block;
+}
+
+#border-image-2{
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../image/border-img-2.jpg) 65 stretch; /*Safari*/
+    -o-border-image: url(../image/border-img-2.jpg) 65 stretch; /*Opera*/
+    border-image: url(../image/border-img-2.jpg) 65 stretch; 
+    display: inline-block;
+}
+
+#border-image-3{
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../image/border-img-3.jpg) 20% round; /*Safari*/
+    -o-border-image: url(../image/border-img-3.jpg) 20% round; /*Opera*/
+    border-image: url(../image/border-img-3.jpg) 20% round; 
+    display: inline-block;
+}
+
+#border-image-4{
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../image/border-img.jpg) 30% stretch; /*Safari*/
+    -o-border-image: url(../image/border-img.jpg) 30% stretch; /*Opera*/
+    border-image: url(../image/border-img.jpg) 30% stretch; 
+    display: inline-block;
+}
